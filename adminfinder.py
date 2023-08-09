@@ -4,13 +4,17 @@ import re
 import argparse
 import time
 import os
+import sys
 
-W = '\033[1;37m'
-B = '\033[1;34m'
-R = '\033[1;31m'
-G = '\033[1;32m'
-Y = '\033[1;33m'
-C = '\033[1;36m'
+if sys.platform.startswith('linux'):
+    W = '\033[1;37m'
+    B = '\033[1;34m'
+    R = '\033[1;31m'
+    G = '\033[1;32m'
+    Y = '\033[1;33m'
+    C = '\033[1;36m'
+else:
+    W = B = R = G = Y = C = ''
 
 
 banner = f'''
