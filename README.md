@@ -1,5 +1,5 @@
 # Admin Finder
-A fast admin finding tool
+A Ultra-fast admin finding tool
 
 ## legal disclaimer:
 
