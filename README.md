@@ -25,3 +25,4 @@ I also add 5 secound of interval after every 1000 request (if you need you can a
   REQUESTS_PER_WAIT = 1000
   WAIT_TIME_SECONDS = 5
 ```
+If you get error try to change your proxy server.If continuously getting error try to adjust those number. :)
